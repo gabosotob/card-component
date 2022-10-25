@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <link rel="stylesheet" href="./styles/simple-reset.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/card.style.css" />
+		<script src="./components/card.js" defer></script>
 
-    <script src="./js/index.js" type="module" defer></script>
+		<link rel="stylesheet" href="./styles/simple-reset.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
 
-    <title>QR code component</title>
-  </head>
-  <body>
-    <main id="root"></main>
-  </body>
+		<title>QR code component</title>
+	</head>
+	<body>
+		<main id="root">
+			<custom-card
+				image="./images/image-qr-code.png"
+				title="Improve your front-end skills by building projects"
+				description="Scan the QR code to visit Frontend Mentor and take tour coding skills to the next level"
+			>
+			</custom-card>
+		</main>
+	</body>
 </html>
